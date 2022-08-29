@@ -10,10 +10,12 @@ export const parameters = {
     storySort: {
       order: [
         "Introduction",
-        "Get Started",
+        "Getting Started",
         ["Designer", "Developer"],
-        "Component",
-        ["Button"],
+        "Components",
+        ["View", "Button"],
+        "Tutorial",
+        ["How to Create and Publish a React Component Library"],
       ],
     },
   },
