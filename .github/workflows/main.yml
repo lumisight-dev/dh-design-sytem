@@ -1,0 +1,21 @@
+name: Deployment
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+
+      - name: install dependencies
+        run: npm install --global yarn firebase-tools && yarn
+
+      - name: Run build
+        run: yarn build-storybook
+
+      - name: Deploy
+        run: firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}

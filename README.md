@@ -89,5 +89,30 @@ The second is **YOUR_AUTH_TOKEN** which we haven't created yet. Make sure to inc
 
 which is what we need.
 
-# CI/CD
-TBD
+# Deployment
+
+#### Automation:
+  - Push commit to `master` branch
+
+#### Manual:
+
+Step 1: Installation
+```
+npm install -g firebase-tools
+```
+
+Step 2: Login 
+```bash
+firebase login
+```
+  - Login with mail: `lms.dev.react@gmail.com`
+  - contact @tin_pham to get credentials
+  
+Step 3: storybook build
+```
+yarn build-storybook
+```
+Step 4: Deploy to firebase
+```
+firebase deploy
+```
