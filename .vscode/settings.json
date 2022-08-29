@@ -1,6 +1,6 @@
 {
   "typescript.tsdk": "node_modules\\typescript\\lib",
-  "cSpell.words": ["lumisight", "dh", "Datahouse"],
+  "cSpell.words": ["lumisight", "dh", "Datahouse", "mrkdwn"],
   "files.exclude": {
     "node_modules/": false
   },
