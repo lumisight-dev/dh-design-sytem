@@ -15,7 +15,10 @@ export const parameters = {
         "Components",
         ["View", "Button"],
         "Tutorial",
-        ["How to Create and Publish a React Component Library"],
+        [
+          "How to Create and Publish a React Component Library",
+          "How to write storybook",
+        ],
       ],
     },
   },

@@ -50,6 +50,12 @@ yarn storybook
     
 ```
 2. export `Button` component in `src/components/index.ts`
+3. create new option in `.storybook/preview` for story sort order to view in Storybook Sidebar
+
+```
+        "Components",
+        [..., "Button", ...],
+```
 
 ```
 export { default as DHButton } from "./Button";
