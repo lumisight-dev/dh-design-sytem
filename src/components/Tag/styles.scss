@@ -1,0 +1,22 @@
+.tag {
+  border-radius: 16px !important;
+  font-weight: 500;
+  padding: 0 12px !important;
+
+  &.is-info.is-light {
+    background-color: #e6eff9 !important;
+    color: #3576c1 !important;
+  }
+  &.is-danger.is-light {
+    background-color: #ffc8c8 !important;
+    color: #eb5757 !important;
+  }
+  &.is-warning.is-light {
+    background-color: #f3e9e2 !important;
+    color: #e87839 !important;
+  }
+  &.is-success.is-light {
+    background-color: #ebf9eb !important;
+    color: #3eac57 !important;
+  }
+}

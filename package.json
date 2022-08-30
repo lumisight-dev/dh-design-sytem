@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/lumisight-dev"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Datahouse React Design System",
   "scripts": {
     "rollup": "rollup -c",

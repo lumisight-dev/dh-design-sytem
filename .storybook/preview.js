@@ -13,7 +13,7 @@ export const parameters = {
         "Getting Started",
         ["Designer", "Developer"],
         "Components",
-        ["View", "Button"],
+        ["View", "Button", "Tag"],
         "Tutorial",
         [
           "How to Create and Publish a React Component Library",
